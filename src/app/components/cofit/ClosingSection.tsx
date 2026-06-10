@@ -16,10 +16,10 @@ export default function ClosingSection() {
         <div className="max-w-4xl mx-auto px-8 text-center relative z-10">
           <div>
             <AnimatedText
-              text="Ready to transform your health?"
-              className="mb-8 text-white"
+              text="Change behavior, live better."
+              className="mb-6 text-white"
               style={{
-                fontSize: '48px',
+                fontSize: 'clamp(36px, 4vw, 56px)',
                 fontWeight: 700,
                 lineHeight: 1.2,
               }}
@@ -28,12 +28,12 @@ export default function ClosingSection() {
             <p
               className="mb-12 text-white/90"
               style={{
-                fontSize: '24px',
+                fontSize: '20px',
                 fontWeight: 300,
                 lineHeight: 1.7,
               }}
             >
-              Take the first step today. REFUND is available within three days after the program is kicked off.
+              A science-backed approach combining human expertise with intelligent technology.
             </p>
 
             <motion.div
@@ -44,14 +44,24 @@ export default function ClosingSection() {
               transition={{ duration: 0.8, delay: 0.3 }}
             >
               <MagneticButton
-                href="mailto:partnerships@cofit.me"
+                href="https://hi.cofit.me/o9YlF"
                 className="text-[#004F51] shadow-2xl"
                 style={{
                   backgroundColor: 'white',
                   fontSize: '18px',
                 }}
               >
-                Join the Program Now
+                Start Your Transformation Today
+              </MagneticButton>
+              <MagneticButton
+                href="https://pro.cofit.me/administrator/registration_forms/3088/new_group_class_order?org_id=3"
+                className="text-white backdrop-blur-sm border border-white/70"
+                style={{
+                  backgroundColor: 'rgba(255, 255, 255, 0.15)',
+                  fontSize: '18px',
+                }}
+              >
+                Talk to a Nutritionist
               </MagneticButton>
             </motion.div>
           </div>
@@ -99,9 +109,15 @@ export default function ClosingSection() {
 
       <Footer
         columns={[
-          { heading: "PROGRAM", items: ["How it works", "Hormone Types", "Pricing", "Success Stories", "Blog"] },
-          { heading: "COMPANY", items: ["About Us", "Careers", "For Dietitians", "Partner with Us", "Contact"] },
-          { heading: "LEGAL", items: ["Terms of Service", "Privacy Policy", "Refund Policy", "Medical Disclaimer", "Cookie Preferences"] },
+          { heading: "PROGRAM", links: [
+            { label: "How It Works",   href: "/#how-it-works" },
+            { label: "Hormone Types",  href: "/#hormone-types" },
+            { label: "Pricing",        href: "/#pricing" },
+            { label: "Success Stories",href: "/#results" },
+          ]},
+          { heading: "PAGES", links: [
+            { label: "Consultation",   href: "/consultation" },
+          ]},
         ]}
         copyright="© 2026 Cofit Healthcare Inc. All rights reserved."
       />

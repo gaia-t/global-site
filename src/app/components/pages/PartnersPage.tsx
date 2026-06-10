@@ -420,7 +420,7 @@ export default function PartnersPage() {
       </section>
 
       {/* Partnership Types */}
-      <section className="relative overflow-hidden py-32 px-8" style={{ background: 'linear-gradient(180deg, #f6fcfb 0%, #ffffff 55%)' }}>
+      <section id="paths" className="relative overflow-hidden py-32 px-8" style={{ background: 'linear-gradient(180deg, #f6fcfb 0%, #ffffff 55%)' }}>
         <AmbientGlow />
         <div className="max-w-7xl mx-auto relative z-10">
           <SectionHeader
@@ -697,9 +697,10 @@ export default function PartnersPage() {
 
       <Footer
         columns={[
-          { heading: "Partnership Paths", items: ["Clinics & Hospitals", "HR & Benefits", "Insurers & Payers", "Pharma", "Digital Health Builders", "Resellers", "Healthcare Professionals", "Creators"] },
-          { heading: "Resources", items: ["Nutrients (2024) paper", "Outcomes whitepaper", "Case studies"] },
-          { heading: "Company", items: ["About", "Press", "Contact"] },
+          { heading: "Pages", links: [
+            { label: "Flex8 Program", href: "/" },
+            { label: "Consultation",  href: "/consultation" },
+          ]},
         ]}
         copyright="© 2026 Cofit · Headquartered in Taipei. Trusted by Novo Nordisk and clinical leaders worldwide."
       />

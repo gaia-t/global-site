@@ -318,9 +318,10 @@ export default function PartnerPathPage() {
 
       <Footer
         columns={[
-          { heading: "Partnership Paths", items: ["Clinics & Hospitals", "HR & Benefits", "Insurers & Payers", "Pharma", "Digital Health Builders", "Resellers", "Healthcare Professionals", "Creators"] },
-          { heading: "Resources", items: ["Nutrients (2024) paper", "Outcomes whitepaper", "Case studies"] },
-          { heading: "Company", items: ["About", "Press", "Contact"] },
+          { heading: "Pages", links: [
+            { label: "Flex8 Program", href: "/" },
+            { label: "Consultation",  href: "/consultation" },
+          ]},
         ]}
         copyright="© 2026 Cofit · Headquartered in Taipei. Trusted by Novo Nordisk and clinical leaders worldwide."
       />

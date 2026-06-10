@@ -1,6 +1,11 @@
+interface FooterLink {
+  label: string;
+  href: string;
+}
+
 interface FooterColumn {
   heading: string;
-  items: string[];
+  links: FooterLink[];
 }
 
 interface FooterProps {
@@ -20,8 +25,17 @@ export default function Footer({ columns, copyright }: FooterProps) {
             <div key={col.heading}>
               <h4 className="font-bold mb-4 text-lg">{col.heading}</h4>
               <ul className="space-y-2 text-sm opacity-80">
-                {col.items.map((item) => (
-                  <li key={item}>{item}</li>
+                {col.links.map((link) => (
+                  <li key={link.label}>
+                    <a
+                      href={link.href}
+                      className="hover:opacity-100 hover:underline transition-opacity"
+                      target={link.href.startsWith('http') ? '_blank' : undefined}
+                      rel={link.href.startsWith('http') ? 'noreferrer' : undefined}
+                    >
+                      {link.label}
+                    </a>
+                  </li>
                 ))}
               </ul>
             </div>

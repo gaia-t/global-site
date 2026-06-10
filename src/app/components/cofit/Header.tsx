@@ -139,7 +139,7 @@ export default function Header() {
           </div>
           <div className="w-full md:w-auto flex justify-center md:justify-end">
             <motion.a
-              href="#get-started"
+              href="/#pricing"
               className="px-3 sm:px-4 md:px-6 py-1.5 sm:py-2 rounded-sm text-white text-xs sm:text-sm font-medium whitespace-nowrap"
               initial={{ opacity: 0, width: 0, marginLeft: 0 }}
               animate={{

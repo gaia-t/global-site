@@ -1,4 +1,7 @@
 {
+  "installCommand": "npx pnpm install --no-frozen-lockfile",
+  "buildCommand": "npx pnpm build",
+  "outputDirectory": "dist",
   "rewrites": [
     { "source": "/(.*)", "destination": "/" }
   ]

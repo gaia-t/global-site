@@ -259,12 +259,10 @@ export default function PricingSection() {
           Mobile  : [CTA card → dark card → food photo]
         */}
         <div
-          className="max-lg:flex max-lg:flex-col max-lg:gap-5"
+          className="grid max-lg:flex max-lg:flex-col max-lg:gap-5"
           style={{
-            display: 'grid',
             gridTemplateColumns: '1fr clamp(190px,21%,240px) clamp(260px,29%,320px)',
             gap: '1.25rem',
-            /* align-items defaults to stretch — all three columns equal height */
           }}
         >
           {/* ── Col 1: Dark program card ── */}
@@ -309,7 +307,7 @@ export default function PricingSection() {
 
           {/* ── Col 2: Food photo ── */}
           <motion.div
-            className="max-lg:order-3 relative rounded-3xl overflow-hidden"
+            className="max-lg:hidden relative rounded-3xl overflow-hidden"
             style={{ minHeight: 420 }}
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}

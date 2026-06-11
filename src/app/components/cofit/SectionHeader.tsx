@@ -43,10 +43,9 @@ export default function SectionHeader({
       )}
       <motion.h2
         style={{
-          fontSize: `${headingSize}px`,
+          fontSize: `clamp(${Math.round(headingSize * 0.62)}px, ${headingSize / 16}vw, ${headingSize}px)`,
           fontWeight: 700,
-          lineHeight: 1.12,
-          letterSpacing: "-0.02em",
+          lineHeight: 1.2,
           color: "var(--color-text)",
         }}
         className={subheading ? "mb-5" : ""}
@@ -59,7 +58,8 @@ export default function SectionHeader({
       {subheading && (
         <motion.p
           style={{
-            fontSize: "18px",
+            fontSize: "20px",
+            fontWeight: 300,
             lineHeight: 1.7,
             color: "var(--color-text-secondary)",
           }}

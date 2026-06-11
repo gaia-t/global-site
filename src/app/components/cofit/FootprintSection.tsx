@@ -46,8 +46,8 @@ export default function FootprintSection() {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <img
-            src="https://images.unsplash.com/photo-1587996616596-b714c1c54146?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1600"
-            alt="Healthy nutrition and wellness"
+            src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1600"
+            alt="Happy healthy people walking together"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent flex items-end">

@@ -1,124 +1,111 @@
 import { motion } from "motion/react";
 import SectionHeader from "./SectionHeader";
 
-const STEPS = [
+const PILLARS = [
   {
-    step: 1,
-    title: "1-on-1 Consultation",
-    description:
-      "Begin with a comprehensive video or phone analysis by a certified nutritionist to understand your baseline and hormone type.",
-    image:
-      "https://images.unsplash.com/photo-1675270690434-aa99f4871e8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
-    alt: "Nutritionist consultation",
-    gradient: "from-[#169E6B] to-[#00C2E0]",
+    num: "01",
+    icon: "📊",
+    title: "Science-Based Assessment",
+    desc: "Clinical hormone-type analysis identifies the root cause of your weight challenges — not just surface-level calories.",
+    points: ["Hormone-type analysis", "Personalized nutrition strategy", "Root-cause identification"],
   },
   {
-    step: 2,
-    title: "Customized Flexi-Carb Plan",
-    description:
-      "Receive a tailored diet plan designed for your actual lifestyle, social events, and cultural food preferences.",
-    image:
-      "https://images.unsplash.com/photo-1588177806780-51d021f6b2d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
-    alt: "Health tracking app",
-    gradient: "from-[#004F51] to-[#169E6B]",
+    num: "02",
+    icon: "👩‍⚕️",
+    title: "Expert Nutritionists",
+    desc: "Registered dietitians review your profile and respond to your daily check-ins with personalized feedback — backed by AI-powered real-time dietary analysis available around the clock.",
+    points: ["Daily personalized guidance", "AI dietary analysis, 24/7", "1-on-1 video consultations"],
   },
   {
-    step: 3,
-    title: "Daily Support & Adjustments",
-    description:
-      "Stay on track with online support from 9 AM to 11 PM. Weekend diet analyses and adjustments provided every Monday.",
-    image:
-      "https://images.unsplash.com/photo-1660777748008-68d206e4a632?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
-    alt: "Healthy meals",
-    gradient: "from-[#FFB46E] to-[#169E6B]",
+    num: "03",
+    icon: "🌱",
+    title: "Habit Transformation",
+    desc: "We don't just help you lose weight — we help you build the mindset and habits to keep it off for life.",
+    points: ["Sustainable lifestyle change", "Behavioral coaching", "Long-term results"],
   },
 ];
 
 export default function HowItWorksSection() {
   return (
-    <section className="py-32 bg-white" id="how-it-works">
+    <section className="py-32 bg-[#f7fbf9]" id="how-it-works">
       <div className="max-w-7xl mx-auto px-8">
         <SectionHeader
-          heading="Change behavior, live better."
-          subheading="A science-backed approach combining human expertise with intelligent technology."
+          heading="A Smarter Way to Lose Weight"
+          subheading="Flex8 isn't another diet. It's an 8-week guided transformation designed to help you understand your body, improve your eating habits, and create lasting change with expert support."
           headingSize={48}
-          subheadingMaxWidth="max-w-2xl"
+          subheadingMaxWidth="max-w-3xl"
           className="mb-20"
         />
 
-        {STEPS.map((s, i) => {
-          const reverse = i % 2 === 1;
-          return (
-            <div
-              key={s.step}
-              className={`grid grid-cols-2 gap-16 items-center max-md:grid-cols-1 ${
-                i < STEPS.length - 1 ? "mb-32" : ""
-              }`}
+        <div className="grid grid-cols-3 gap-6 max-md:grid-cols-1">
+          {PILLARS.map((p, i) => (
+            <motion.div
+              key={p.num}
+              className="bg-white rounded-2xl p-10 relative overflow-hidden"
+              style={{
+                boxShadow: '0 1px 3px rgba(15,31,26,0.04), 0 12px 32px -8px rgba(15,31,26,0.09)',
+                border: '1px solid rgba(0,79,81,0.06)',
+              }}
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: i * 0.12 }}
+              whileHover={{ y: -6, boxShadow: '0 20px 50px -12px rgba(0,79,81,0.14)', transition: { duration: 0.3 } }}
             >
-              <motion.div
-                initial={{ opacity: 0, x: -40 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.8 }}
-                className={`relative group ${reverse ? "max-md:order-1 md:col-start-2 md:row-start-1" : ""}`}
+              {/* Big ghost number */}
+              <div
+                style={{
+                  fontFamily: '"DM Serif Display", serif',
+                  fontSize: '52px',
+                  color: 'rgba(0,79,81,0.07)',
+                  lineHeight: 1,
+                  marginBottom: '10px',
+                  userSelect: 'none',
+                }}
               >
-                <div
-                  className={`absolute -inset-4 bg-gradient-to-r ${s.gradient} rounded-3xl opacity-0 group-hover:opacity-20 blur-2xl transition-opacity duration-500`}
-                />
-                <motion.img
-                  src={s.image}
-                  alt={s.alt}
-                  className="w-full rounded-2xl shadow-2xl relative"
-                  style={{ aspectRatio: "4/5", objectFit: "cover" }}
-                  whileHover={{ scale: 1.02, rotateY: reverse ? -2 : 2 }}
-                  transition={{ duration: 0.4 }}
-                />
-              </motion.div>
+                {p.num}
+              </div>
 
-              <motion.div
-                initial={{ opacity: 0, x: 40 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.8 }}
-                className={`space-y-8 ${reverse ? "max-md:order-2 md:col-start-1 md:row-start-1" : ""}`}
+              <div style={{ fontSize: '30px', marginBottom: '14px' }}>{p.icon}</div>
+
+              <h3
+                style={{
+                  fontFamily: '"DM Serif Display", serif',
+                  fontSize: '21px',
+                  color: 'var(--color-text)',
+                  marginBottom: '10px',
+                  lineHeight: 1.3,
+                }}
               >
-                <div>
-                  <motion.div
-                    className="mb-4 inline-block px-4 py-2 rounded-full"
-                    style={{
-                      backgroundColor: "#f0fffe",
-                      color: "var(--color-primary)",
-                      fontSize: "14px",
-                      fontWeight: 600,
-                    }}
-                    initial={{ scale: 0 }}
-                    whileInView={{ scale: 1 }}
-                    viewport={{ once: true }}
-                    transition={{ type: "spring", stiffness: 200, damping: 15, delay: 0.2 }}
+                {p.title}
+              </h3>
+
+              <p
+                style={{
+                  fontSize: '13px',
+                  lineHeight: 1.75,
+                  color: 'var(--color-text-secondary)',
+                  marginBottom: '18px',
+                }}
+              >
+                {p.desc}
+              </p>
+
+              <div className="flex flex-col gap-2">
+                {p.points.map((pt) => (
+                  <div
+                    key={pt}
+                    className="flex items-center gap-2"
+                    style={{ fontSize: '12px', fontWeight: 600, color: 'var(--color-secondary)' }}
                   >
-                    Step {s.step}
-                  </motion.div>
-                  <h3
-                    className="mb-4"
-                    style={{ fontSize: "32px", fontWeight: 700, color: "var(--color-text)" }}
-                  >
-                    {s.title}
-                  </h3>
-                  <p
-                    style={{
-                      fontSize: "18px",
-                      fontWeight: 300,
-                      lineHeight: 1.7,
-                      color: "var(--color-text-secondary)",
-                    }}
-                  >
-                    {s.description}
-                  </p>
-                </div>
-              </motion.div>
-            </div>
-          );
-        })}
+                    <span>✓</span>
+                    {pt}
+                  </div>
+                ))}
+              </div>
+            </motion.div>
+          ))}
+        </div>
       </div>
     </section>
   );

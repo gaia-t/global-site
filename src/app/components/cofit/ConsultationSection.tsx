@@ -39,7 +39,7 @@ export default function ConsultationSection() {
             }}
           >
             Start with a 1-on-1{' '}
-            <span style={{ color: 'var(--color-primary)' }}>Dietitian Consultation</span>
+            <span style={{ color: 'var(--color-primary)' }}>Nutritionist Consultation</span>
           </h2>
 
           <p

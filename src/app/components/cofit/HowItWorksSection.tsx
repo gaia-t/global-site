@@ -13,7 +13,7 @@ const PILLARS = [
     num: "02",
     icon: "👩‍⚕️",
     title: "Expert Nutritionists",
-    desc: "Registered dietitians review your profile and respond to your daily check-ins with personalized feedback — backed by AI-powered real-time dietary analysis available around the clock.",
+    desc: "Registered nutritionists review your profile and respond to your daily check-ins with personalized feedback — backed by AI-powered real-time dietary analysis available around the clock.",
     points: ["Daily personalized guidance", "AI dietary analysis, 24/7", "1-on-1 video consultations"],
   },
   {

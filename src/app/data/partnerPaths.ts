@@ -22,8 +22,8 @@ export const PARTNER_PATHS: Record<string, PartnerPath> = {
     slug: "clinics",
     pathNum: "BETWEEN-VISIT CARE",
     name: "For Clinics & Hospitals",
-    h1: "Extend your chronic care team — without hiring more dietitians.",
-    sub: "Your patient leaves the consult room and won't be back for 90 days. In those 90 days they make 270 meal decisions — most without clinical input. Cofit fills that gap: 1,000+ registered dietitians, working as your between-visit care layer.",
+    h1: "Extend your chronic care team — without hiring more nutritionists.",
+    sub: "Your patient leaves the consult room and won't be back for 90 days. In those 90 days they make 270 meal decisions — most without clinical input. Cofit fills that gap: 1,000+ registered nutritionists, working as your between-visit care layer.",
     miniStats: [
       { num: "−1.4%", label: "HbA1c reduction at partner clinic" },
       { num: "2.3×", label: "Follow-up adherence increase" },
@@ -34,7 +34,7 @@ export const PARTNER_PATHS: Record<string, PartnerPath> = {
       label: "What you get on day 1",
       title: "A fully clinical extension to your care team.",
       items: [
-        "Between-visit care layer — Cofit dietitians follow up where your team can't",
+        "Between-visit care layer — Cofit nutritionists follow up where your team can't",
         "EHR integration ready — HL7/FHIR, Epic, Cerner, regional Asian EHRs",
         "Clinical reporting — per-patient summary before each follow-up",
         "Co-brandable — referral pathway carries your clinic's identity",
@@ -42,7 +42,7 @@ export const PARTNER_PATHS: Record<string, PartnerPath> = {
       ],
     },
     reasons: {
-      title: "Three reasons clinics choose Cofit over hiring more dietitians.",
+      title: "Three reasons clinics choose Cofit over hiring more nutritionists.",
       cards: [
         { title: "Scale without fixed cost.", desc: "One RD can follow ~50–100 patients between visits. Cofit's 1,000+ RDs scale instantly — you only pay for patients actively in the program. No salaries, no leave coverage, no recruiting cycles." },
         { title: "Your physician stays clinically responsible.", desc: "Cofit operates as the care extension under your clinical protocols. Your physician remains the responsible provider; Cofit escalates per your defined thresholds." },
@@ -52,8 +52,8 @@ export const PARTNER_PATHS: Record<string, PartnerPath> = {
     deliverables: {
       title: "The full between-visit infrastructure.",
       items: [
-        { label: "For patients", title: "A licensed dietitian within 48 hrs.", desc: "1-on-1 coaching by an RD. Daily food logging with AI assist. Behavior nudges between sessions. Multi-language available." },
-        { label: "For physicians", title: "Pre-visit clinical summary.", desc: "Brief PDF (HbA1c trajectory, weight curve, adherence score, dietitian notes) delivered before each follow-up." },
+        { label: "For patients", title: "A licensed nutritionist within 48 hrs.", desc: "1-on-1 coaching by an RD. Daily food logging with AI assist. Behavior nudges between sessions. Multi-language available." },
+        { label: "For physicians", title: "Pre-visit clinical summary.", desc: "Brief PDF (HbA1c trajectory, weight curve, adherence score, nutritionist notes) delivered before each follow-up." },
         { label: "For the clinic", title: "Defined clinical protocols.", desc: "Risk stratification on enrollment. Personalized thresholds. Escalation pathways. Adverse event reporting framework." },
         { label: "For IT / ops", title: "EHR integration.", desc: "HL7/FHIR export, EHR write-back (Epic, Cerner, regional Asian EHRs). SSO, SCIM. Data residency options." },
         { label: "For management", title: "Aggregate outcomes reporting.", desc: "Cohort outcomes by condition, physician panel, and quarter — formatted for clinical quality and value-based contract review." },
@@ -80,7 +80,7 @@ export const PARTNER_PATHS: Record<string, PartnerPath> = {
       attr: "— Medical Director · Endocrinology Clinic Group, Taipei",
     },
     faq: [
-      { q: "How does Cofit interact with our existing dietitians?", a: "Cofit is an extension layer, not a replacement. Your in-house dietitians focus on complex cases, education, and oversight; we handle daily follow-up at volume." },
+      { q: "How does Cofit interact with our existing nutritionists?", a: "Cofit is an extension layer, not a replacement. Your in-house nutritionists focus on complex cases, education, and oversight; we handle daily follow-up at volume." },
       { q: "Who is clinically accountable for the patient?", a: "Your physician remains the clinically responsible provider. Cofit operates under your clinical protocols and escalates per your defined thresholds." },
       { q: "What does pricing look like?", a: "Per-patient-per-month with volume tiers. Outcomes-based options available for clinic groups above 1,000 patients. Quoted after demo." },
       { q: "Can we white-label or co-brand?", a: "Yes, for partners above a minimum panel size. Co-branded onboarding flow and app experience available." },
@@ -93,7 +93,7 @@ export const PARTNER_PATHS: Record<string, PartnerPath> = {
     pathNum: "EMPLOYEE BENEFIT",
     name: "For HR & Benefits Leaders",
     h1: "A wellness benefit your workforce will actually use — not just sign up for and forget.",
-    sub: "Most workplace wellness apps hit engagement below 10%. Cofit delivers real engagement (62% sign-up, 74% week-12 active) because real dietitians, in your employees' language, do work that apps can't.",
+    sub: "Most workplace wellness apps hit engagement below 10%. Cofit delivers real engagement (62% sign-up, 74% week-12 active) because real nutritionists, in your employees' language, do work that apps can't.",
     miniStats: [
       { num: "62%", label: "Eligible employee sign-up rate" },
       { num: "74%", label: "Active engagement at week 12" },
@@ -114,7 +114,7 @@ export const PARTNER_PATHS: Record<string, PartnerPath> = {
     reasons: {
       title: "Three reasons Cofit lands where other wellness benefits quietly die.",
       cards: [
-        { title: "Real dietitians, not a chatbot.", desc: "1,000+ RDs. Each enrolled employee is assigned a real dietitian who builds their plan, answers messages, and adjusts as life happens. Apps hit engagement walls at week 4. Humans don't." },
+        { title: "Real nutritionists, not a chatbot.", desc: "1,000+ RDs. Each enrolled employee is assigned a real nutritionist who builds their plan, answers messages, and adjusts as life happens. Apps hit engagement walls at week 4. Humans don't." },
         { title: "Built for every employee.", desc: "Multi-language AI food recognition with 3.5M+ items across global cuisines. Employees in Taipei, Tokyo, KL, or California get the same personalization — in their own language." },
         { title: "A benefit you can defend at budget review.", desc: "Engagement 3–5× industry norm. Peer-reviewed outcomes. Quarterly reporting that translates to healthcare cost trend assumptions." },
       ],
@@ -122,7 +122,7 @@ export const PARTNER_PATHS: Record<string, PartnerPath> = {
     deliverables: {
       title: "The full benefit, fully managed.",
       items: [
-        { label: "For employees", title: "A registered dietitian, assigned to them.", desc: "1-on-1 coaching by a licensed RD. Real messages, real meal plans, real follow-through — via app, web, and video." },
+        { label: "For employees", title: "A registered nutritionist, assigned to them.", desc: "1-on-1 coaching by a licensed RD. Real messages, real meal plans, real follow-through — via app, web, and video." },
         { label: "For employees", title: "Multi-language AI food tracking.", desc: "3.5M+ items across local and global cuisines. Snap a photo, log a meal, get instant feedback in their preferred language." },
         { label: "For employees", title: "One program, multiple goals.", desc: "Weight loss, prediabetes, hypertension, metabolic wellness — all in one program. No app switching." },
         { label: "For HR", title: "Privacy-preserving reporting.", desc: "Aggregate, de-identified results quarterly. You see the trend; you never see individual data. PDPA, APPI, GDPR aligned." },
@@ -152,7 +152,7 @@ export const PARTNER_PATHS: Record<string, PartnerPath> = {
     faq: [
       { q: "How does pricing work?", a: "Per-employee-per-month with volume tiers, with outcomes-based options above 2,000 employees. We share specific pricing before the second call." },
       { q: "Is employee data confidential?", a: "Yes. Employees own their health data. You receive only aggregate, de-identified reporting. PDPA, APPI, GDPR aligned." },
-      { q: "What if our employees speak many languages?", a: "Cofit supports English, Mandarin, Japanese, and more through both AI and dietitian channels. Reporting consolidates for you in English." },
+      { q: "What if our employees speak many languages?", a: "Cofit supports English, Mandarin, Japanese, and more through both AI and nutritionist channels. Reporting consolidates for you in English." },
       { q: "How does this compare to our insurance wellness perks?", a: "Insurance-bundled apps typically see engagement under 5%. Most partners deploy Cofit alongside insurance benefits, not as a replacement." },
       { q: "Can we integrate with our benefits platform?", a: "SSO via SAML, SCIM provisioning, and integrations with Workday, SAP SuccessFactors, and major regional HRIS platforms." },
     ],
@@ -233,7 +233,7 @@ export const PARTNER_PATHS: Record<string, PartnerPath> = {
     pathNum: "LIFE SCIENCES",
     name: "For Pharma & Life Sciences",
     h1: "The behavior-change layer your obesity portfolio has been missing.",
-    sub: "GLP-1s transformed obesity care, but adherence, dietary support, and lean body mass preservation remain under-served. Cofit is the dietitian-led behavior-change platform trusted by Novo Nordisk in a signed strategic collaboration.",
+    sub: "GLP-1s transformed obesity care, but adherence, dietary support, and lean body mass preservation remain under-served. Cofit is the nutritionist-led behavior-change platform trusted by Novo Nordisk in a signed strategic collaboration.",
     miniStats: [
       { num: "2025", label: "Year of Novo Nordisk collaboration" },
       { num: "1M+", label: "Members across the platform" },
@@ -244,7 +244,7 @@ export const PARTNER_PATHS: Record<string, PartnerPath> = {
       label: "Why Novo Nordisk chose us",
       title: "A \"nutrition-first\" model, fully clinical.",
       items: [
-        "Real registered dietitians deliver dietary analysis before pharmacological intervention",
+        "Real registered nutritionists deliver dietary analysis before pharmacological intervention",
         "Physician-led care plans integrate with prescription therapy",
         "Real-time AI data platform records weight, side effects, nutrition, activity",
         "Clinical adjustment data feeds back to physicians for plan refinement",
@@ -254,7 +254,7 @@ export const PARTNER_PATHS: Record<string, PartnerPath> = {
     reasons: {
       title: "From behavior support to direct-to-employer programs.",
       cards: [
-        { title: "The behavior layer for your prescriptions.", desc: "Once the prescription is written, real dietitians take over: dietary planning, side-effect management, lean body mass preservation. Most prescriptions fail at follow-through, not at the molecule." },
+        { title: "The behavior layer for your prescriptions.", desc: "Once the prescription is written, real nutritionists take over: dietary planning, side-effect management, lean body mass preservation. Most prescriptions fail at follow-through, not at the molecule." },
         { title: "RWE pipeline for post-launch monitoring.", desc: "Longitudinal cohort data provides real-world adherence, persistence, and outcome signals — supporting post-marketing surveillance and HEOR studies." },
         { title: "Direct-to-employer program partner.", desc: "Following the Omada × Eli Lilly precedent, we deploy as partner-of-record in pharma-funded employer programs — bypassing PBM friction." },
       ],
@@ -262,11 +262,11 @@ export const PARTNER_PATHS: Record<string, PartnerPath> = {
     deliverables: {
       title: "What Cofit brings to a pharma partnership.",
       items: [
-        { label: "Clinical", title: "Dietitian-led care delivery.", desc: "1,000+ RDs, validated clinical protocols, medical advisory board including endocrinology and obesity specialists." },
+        { label: "Clinical", title: "Nutritionist-led care delivery.", desc: "1,000+ RDs, validated clinical protocols, medical advisory board including endocrinology and obesity specialists." },
         { label: "Data", title: "Real-world evidence infrastructure.", desc: "Longitudinal member data, GLP-1 adherence tracking, side-effect logging — designed to feed HEOR and post-marketing studies." },
         { label: "Commercial", title: "Direct-to-employer channels.", desc: "Deploy as partner-of-record in employer programs your team funds. Transparent net pricing. Bypass PBM friction where strategy requires." },
         { label: "Brand", title: "White-label options.", desc: "Run the program under your franchise brand, co-brand, or run as Cofit. Three modes, partner's choice." },
-        { label: "Markets", title: "Multi-market readiness.", desc: "Multi-language AI, local dietitian recruitment, regulatory framework support across major Asian and global markets." },
+        { label: "Markets", title: "Multi-market readiness.", desc: "Multi-language AI, local nutritionist recruitment, regulatory framework support across major Asian and global markets." },
         { label: "Education", title: "KOL & prescriber education.", desc: "Co-marketing for HCP education on lifestyle-prescription integration. Conference presence, peer-reviewed content, KOL programs." },
       ],
     },
@@ -278,15 +278,15 @@ export const PARTNER_PATHS: Record<string, PartnerPath> = {
         { num: "Live", label: "Active program in market" },
         { num: "Expanding", label: "Additional pharma partners in discussion" },
       ],
-      quote: "The collaboration delivers a 'nutrition-first' weight management model with personalized analysis from registered dietitians, paired with physician-led clinical care.",
+      quote: "The collaboration delivers a 'nutrition-first' weight management model with personalized analysis from registered nutritionists, paired with physician-led clinical care.",
       attr: "— Adapted from joint announcement, May 2025",
     },
     faq: [
       { q: "What commercial structures do you support?", a: "Direct partnerships, co-branded programs, white-label deployments, revenue share, or per-patient fee structures. Specific terms discussed under MNDA." },
       { q: "Can you support post-marketing studies?", a: "Yes. Our longitudinal cohort data, adverse event reporting framework, and clinical advisory infrastructure are designed to support post-marketing surveillance and HEOR." },
       { q: "Are you exclusive to Novo Nordisk?", a: "No. We welcome additional pharma partnerships in adjacent therapeutic areas. Field-of-use exclusivity can be negotiated." },
-      { q: "What markets are you ready in?", a: "Active in TW, SG, MY; multi-language AI in EN, ZH, JA; local dietitian recruitment across most Asian and selected Western markets." },
-      { q: "How does this compare to Omada / Noom?", a: "Real licensed dietitians (not coaches), peer-reviewed evidence at 10,000+ subject scale, and a multi-language platform with native Asian + global capability." },
+      { q: "What markets are you ready in?", a: "Active in TW, SG, MY; multi-language AI in EN, ZH, JA; local nutritionist recruitment across most Asian and selected Western markets." },
+      { q: "How does this compare to Omada / Noom?", a: "Real licensed nutritionists (not coaches), peer-reviewed evidence at 10,000+ subject scale, and a multi-language platform with native Asian + global capability." },
     ],
   },
 
@@ -295,7 +295,7 @@ export const PARTNER_PATHS: Record<string, PartnerPath> = {
     pathNum: "PLATFORM LICENSING",
     name: "For Digital Health Builders",
     h1: "Don't spend 3 years rebuilding what already exists.",
-    sub: "License the engine underneath the world's largest dietitian-led metabolic health platform. SaaS, API, or full white-label. Your brand on top, our platform underneath. From contract to live in market in 8–12 weeks.",
+    sub: "License the engine underneath the world's largest nutritionist-led metabolic health platform. SaaS, API, or full white-label. Your brand on top, our platform underneath. From contract to live in market in 8–12 weeks.",
     miniStats: [
       { num: "3.5M+", label: "Foods in AI database" },
       { num: "EN/ZH+", label: "Multi-language out of the box" },
@@ -306,17 +306,17 @@ export const PARTNER_PATHS: Record<string, PartnerPath> = {
       label: "Three licensing modes",
       title: "Pick your level of involvement.",
       items: [
-        "SaaS / HIS license — your dietitians on our platform",
-        "Full white-label — your brand, our dietitians underneath",
+        "SaaS / HIS license — your nutritionists on our platform",
+        "Full white-label — your brand, our nutritionists underneath",
         "API access — embed our AI in your existing app",
         "Hybrid — your team for one segment, ours for another",
-        "Multi-language — AI + dietitian channels in your members' language",
+        "Multi-language — AI + nutritionist channels in your members' language",
       ],
     },
     reasons: {
       title: "Three reasons builders choose infrastructure over service.",
       cards: [
-        { title: "Don't reinvent 10 years of work.", desc: "The dietitian workflow, AI food recognition, clinical protocols, reporting — built once, refined across a million+ members. Launch in 8–12 weeks instead of 3+ years." },
+        { title: "Don't reinvent 10 years of work.", desc: "The nutritionist workflow, AI food recognition, clinical protocols, reporting — built once, refined across a million+ members. Launch in 8–12 weeks instead of 3+ years." },
         { title: "Keep your customer relationship.", desc: "White-label means your members never see Cofit. Your brand on the app, your name on the comms. We're the engine, not the face." },
         { title: "Built for multi-market deployment.", desc: "Multi-language AI, configurable food databases, local data residency. Deploy to one market or ten with the same engine." },
       ],
@@ -324,7 +324,7 @@ export const PARTNER_PATHS: Record<string, PartnerPath> = {
     deliverables: {
       title: "Four engines, available individually or as a stack.",
       items: [
-        { label: "Engine 01", title: "Dietitian workflow platform.", desc: "Case management, member messaging, plan-building tools, supervision workflow, training. Onboard your own RDs onto our platform." },
+        { label: "Engine 01", title: "Nutritionist workflow platform.", desc: "Case management, member messaging, plan-building tools, supervision workflow, training. Onboard your own RDs onto our platform." },
         { label: "Engine 02", title: "AI food recognition.", desc: "3.5M+ items, global cuisines, multi-language. Available via API for embedding, or as part of the full member app." },
         { label: "Engine 03", title: "Clinical protocols.", desc: "Validated protocols for weight, prediabetes, T2D, hypertension, dyslipidemia, GLP-1 companion care. Backed by peer-reviewed research." },
         { label: "Engine 04", title: "Reporting & integrations.", desc: "Member engagement, clinical outcomes, BI. EHR write-back, SSO, SCIM, configurable data residency." },
@@ -334,7 +334,7 @@ export const PARTNER_PATHS: Record<string, PartnerPath> = {
     },
     outcomes: {
       title: "Who's already building on us.",
-      intro: "Hospital systems extending dietitian capacity. Insurers launching white-label benefits apps. Pharma powering GLP-1 companion programs. Startups skipping the multi-year platform build.",
+      intro: "Hospital systems extending nutritionist capacity. Insurers launching white-label benefits apps. Pharma powering GLP-1 companion programs. Startups skipping the multi-year platform build.",
       items: [
         { num: "8–12", label: "Weeks to launch", note: "From signed contract to live deployment. Compared to 18–36 months building in-house." },
         { num: "~70%", label: "Lower TCO vs. build", note: "Estimated 3-year total cost of ownership versus building an equivalent platform in-house." },
@@ -353,10 +353,10 @@ export const PARTNER_PATHS: Record<string, PartnerPath> = {
       attr: "— Co-founder",
     },
     faq: [
-      { q: "What's the difference between SaaS and white-label?", a: "SaaS: you license our platform and run the program with your own dietitians. White-label: you license our platform AND our dietitian services, presented entirely under your brand. Hybrid combines both." },
+      { q: "What's the difference between SaaS and white-label?", a: "SaaS: you license our platform and run the program with your own nutritionists. White-label: you license our platform AND our nutritionist services, presented entirely under your brand. Hybrid combines both." },
       { q: "Can we integrate the AI into our existing app?", a: "Yes — API access is available for the AI food recognition engine, embeddable in a consumer or clinical app without using our full member experience." },
       { q: "What languages does the platform support?", a: "Today: English, Mandarin (Traditional + Simplified), Japanese. In rollout: Korean, Vietnamese, Thai, Bahasa Malaysia. Custom languages for enterprise." },
-      { q: "What does pricing look like?", a: "Per active member, per seat, per API call, or revenue share — depending on scale, configuration, and whether you use our dietitians or yours. Indicative pricing on the first call." },
+      { q: "What does pricing look like?", a: "Per active member, per seat, per API call, or revenue share — depending on scale, configuration, and whether you use our nutritionists or yours. Indicative pricing on the first call." },
       { q: "Data ownership and residency?", a: "Your members' data is yours. We operate as a data processor under your contract. Residency options in TW, JP, SG, and more for enterprise." },
     ],
   },
@@ -366,7 +366,7 @@ export const PARTNER_PATHS: Record<string, PartnerPath> = {
     pathNum: "RESELL FLEX8",
     name: "For Resellers & Distributors",
     h1: "You have the customers. We have the program.",
-    sub: "Resell Flex8 — our 8-week dietitian-led program, peer-reviewed in Nutrients (2024) across 10,297 participants — to your client base. Important upfront: you bring the customers, we bring the program. Most overseas resellers should plan on selling to their own customer base, not relying on Cofit lead generation.",
+    sub: "Resell Flex8 — our 8-week nutritionist-led program, peer-reviewed in Nutrients (2024) across 10,297 participants — to your client base. Important upfront: you bring the customers, we bring the program. Most overseas resellers should plan on selling to their own customer base, not relying on Cofit lead generation.",
     miniStats: [
       { num: "3", label: "Reseller SKUs available" },
       { num: "10,297", label: "Subjects in published clinical trial" },
@@ -377,8 +377,8 @@ export const PARTNER_PATHS: Record<string, PartnerPath> = {
       label: "What you can resell",
       title: "Three flagship programs.",
       items: [
-        "Flex8 — 8-week dietitian-led program, Cofit's peer-reviewed flagship",
-        "1-on-1 Dietitian Consultation Packages — single or 4/8/12-session bundles",
+        "Flex8 — 8-week nutritionist-led program, Cofit's peer-reviewed flagship",
+        "1-on-1 Nutritionist Consultation Packages — single or 4/8/12-session bundles",
         "Corporate Wellness Package — pre-packaged employer benefits version",
         "Multi-language support — programs in EN, ZH, more by request",
         "Co-branded materials available for committed partners",
@@ -388,8 +388,8 @@ export const PARTNER_PATHS: Record<string, PartnerPath> = {
       title: "Three reasons service providers add Cofit to their menu.",
       cards: [
         { title: "A program with peer-reviewed proof.", desc: "You're selling Flex8 — the 8-week protocol published in Nutrients (2024) with 10,297 participants. Evidence your customers can verify themselves." },
-        { title: "Recurring revenue, not one-off sales.", desc: "Flex8 converts well into 1-on-1 ongoing packages. Completers typically continue with dietitian support — recurring monthly revenue from a single acquisition." },
-        { title: "Marketing, training, and language support included.", desc: "Sales decks, comparison tables, case studies, dietitian training, and multi-language content. You don't have to invent how to sell Cofit." },
+        { title: "Recurring revenue, not one-off sales.", desc: "Flex8 converts well into 1-on-1 ongoing packages. Completers typically continue with nutritionist support — recurring monthly revenue from a single acquisition." },
+        { title: "Marketing, training, and language support included.", desc: "Sales decks, comparison tables, case studies, nutritionist training, and multi-language content. You don't have to invent how to sell Cofit." },
       ],
     },
     deliverables: {
@@ -426,7 +426,7 @@ export const PARTNER_PATHS: Record<string, PartnerPath> = {
       { q: "Will Cofit help me find customers in my market?", a: "In markets where Cofit already has audience reach (e.g., Hong Kong), we can drive some referrals. In most overseas markets you should plan on selling to your own customer base — we provide the program, training, and materials; you bring the customers." },
       { q: "What's the typical reseller margin?", a: "Authorized Reseller: standard wholesale discount. Regional Distributor: higher margin tied to volume and exclusivity. Strategic Channel Partner: negotiated. Rates shared after we understand your market." },
       { q: "Can I get exclusivity in my country?", a: "Possible for Regional Distributor or Strategic Channel Partner tiers, tied to minimum annual commitment and performance — earned through volume, not granted in perpetuity." },
-      { q: "How is the program delivered to my customers?", a: "Customers enroll via Cofit's app (or a co-branded version), get a registered dietitian, and complete Flex8. You receive enrollment and completion reports." },
+      { q: "How is the program delivered to my customers?", a: "Customers enroll via Cofit's app (or a co-branded version), get a registered nutritionist, and complete Flex8. You receive enrollment and completion reports." },
       { q: "What if I'm just exploring?", a: "The Authorized Reseller tier requires no exclusivity or minimum commitment. Start small, see how your customers respond, and scale up." },
     ],
   },
@@ -440,7 +440,7 @@ export const PARTNER_PATHS: Record<string, PartnerPath> = {
     miniStats: [
       { num: "$0", label: "Cost to participate as a referrer" },
       { num: "24 hr", label: "Average response time to referrals" },
-      { num: "1,000+", label: "Registered dietitians ready to help" },
+      { num: "1,000+", label: "Registered nutritionists ready to help" },
     ],
     primaryCta: "Join the referral network",
     sideCard: {
@@ -457,7 +457,7 @@ export const PARTNER_PATHS: Record<string, PartnerPath> = {
     reasons: {
       title: "Three reasons our referral partners stay long-term.",
       cards: [
-        { title: "The follow-through you don't have time for.", desc: "Your appointment is 15 minutes; your patient has 90 days until next visit. Cofit fills that gap with daily dietitian touchpoints so the patient follows your plan." },
+        { title: "The follow-through you don't have time for.", desc: "Your appointment is 15 minutes; your patient has 90 days until next visit. Cofit fills that gap with daily nutritionist touchpoints so the patient follows your plan." },
         { title: "Your patient credits you for the outcome.", desc: "Patients are referred from you, with your endorsement, and continue seeing you. The outcomes show up in your appointments. You stay the clinical leader." },
         { title: "Zero administrative burden.", desc: "One link, one referral form. Your patient enrolls themselves. We handle onboarding, scheduling, and care. You get an optional progress note before each visit." },
       ],
@@ -477,7 +477,7 @@ export const PARTNER_PATHS: Record<string, PartnerPath> = {
       title: "What happens after they take your referral.",
       items: [
         { num: "82%", label: "Complete Flex8 (8 wk.)", note: "Vs. ~40% industry benchmark for digital health programs." },
-        { num: "−7.3kg", label: "Avg. weight loss, engaged cohort", note: "Flex8 cohort with dietitian-led coaching. Backed by our Nutrients (2024) study." },
+        { num: "−7.3kg", label: "Avg. weight loss, engaged cohort", note: "Flex8 cohort with nutritionist-led coaching. Backed by our Nutrients (2024) study." },
         { num: "−1.2%", label: "HbA1c reduction, T2D cohort", note: "At 6 months. Clinical-grade outcomes you can see in your follow-up labs." },
       ],
     },
@@ -506,7 +506,7 @@ export const PARTNER_PATHS: Record<string, PartnerPath> = {
     pathNum: "CREATOR PARTNERSHIPS",
     name: "For Creators & Media",
     h1: "A partner whose science your audience will actually trust.",
-    sub: "1M+ users, 1.03M YouTube subscribers, 107K Instagram followers — Cofit didn't grow on viral noise. We grew on licensed dietitians answering real questions for real people over 9 years.",
+    sub: "1M+ users, 1.03M YouTube subscribers, 107K Instagram followers — Cofit didn't grow on viral noise. We grew on licensed nutritionists answering real questions for real people over 9 years.",
     miniStats: [
       { num: "1.03M", label: "YouTube subscribers (@Cofit211)" },
       { num: "107K", label: "Instagram followers (@cofit.me)" },
@@ -527,7 +527,7 @@ export const PARTNER_PATHS: Record<string, PartnerPath> = {
     reasons: {
       title: "Three reasons your audience will actually thank you.",
       cards: [
-        { title: "Science your audience will trust.", desc: "Real licensed dietitians. Peer-reviewed publication in Nutrients. Partnership with Novo Nordisk. This isn't a 'wellness' brand pretending to have evidence — we publish ours." },
+        { title: "Science your audience will trust.", desc: "Real licensed nutritionists. Peer-reviewed publication in Nutrients. Partnership with Novo Nordisk. This isn't a 'wellness' brand pretending to have evidence — we publish ours." },
         { title: "Programs that actually work.", desc: "82% of members complete Flex8. People who try Cofit through your channel see real results — your sponsorship feels like a recommendation, not a sellout." },
         { title: "A team that respects creators.", desc: "We've made content for 9 years. We know what works on camera and what your audience can sniff out. Our briefs are flexible; your creative is yours." },
       ],
@@ -539,7 +539,7 @@ export const PARTNER_PATHS: Record<string, PartnerPath> = {
         { label: "Recurring", title: "Series partnership.", desc: "4–12 piece series across a quarter or program. Fee + performance bonus. Suitable for educational deep-dives." },
         { label: "Long-term", title: "Brand ambassador.", desc: "12-month agreement with monthly content, category exclusivity, and revenue share on referred members." },
         { label: "Affiliate", title: "Performance-only.", desc: "No upfront fee. Custom tracking link. Revenue share on every referred sign-up." },
-        { label: "Expert", title: "KOL / clinical creators.", desc: "For dietitians, doctors, and certified trainers. Platform access for content creation and joint case study development." },
+        { label: "Expert", title: "KOL / clinical creators.", desc: "For nutritionists, doctors, and certified trainers. Platform access for content creation and joint case study development." },
         { label: "Co-create", title: "Course or program partnerships.", desc: "Your expertise, our platform. Your name on the course. Revenue share or fixed licensing fee." },
       ],
     },

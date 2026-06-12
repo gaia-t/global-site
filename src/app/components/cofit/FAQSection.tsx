@@ -11,8 +11,8 @@ const FAQS = [
     a: "You'll complete a clinical quiz that analyzes your symptoms, eating patterns, and lifestyle. Based on your answers, we identify which of 6 hormonal body types you are, then build your entire nutrition strategy around your specific root cause.",
   },
   {
-    q: "Will I be assigned a real dietitian?",
-    a: "Yes. Every Flex8 member is paired with a certified registered dietitian (RD) who reviews your profile, customizes your plan, and provides daily personalized feedback throughout the 8-week program.",
+    q: "Will I be assigned a real nutritionist?",
+    a: "Yes. Every Flex8 member is paired with a certified registered nutritionist (RD) who reviews your profile, customizes your plan, and provides daily personalized feedback throughout the 8-week program.",
   },
   {
     q: "Can I do the program if I'm based outside Taiwan?",
@@ -28,7 +28,7 @@ const FAQS = [
   },
   {
     q: "What if I have a medical condition like diabetes or PCOS?",
-    a: "Our dietitians are experienced with a wide range of conditions including Type 2 diabetes, PCOS, thyroid disorders, and more. Please mention your condition during the initial consultation so we can tailor your plan accordingly.",
+    a: "Our nutritionists are experienced with a wide range of conditions including Type 2 diabetes, PCOS, thyroid disorders, and more. Please mention your condition during the initial consultation so we can tailor your plan accordingly.",
   },
 ];
 

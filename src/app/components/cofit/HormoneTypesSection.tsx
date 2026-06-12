@@ -216,7 +216,7 @@ function QuizModal({ onClose }: { onClose: () => void }) {
               This result is a quick initial screen based on self-reported patterns. It is not a medical diagnosis and should not replace professional advice.
             </p>
             <a href="https://pro.cofit.me/administrator/registration_forms/3088/new_group_class_order?org_id=3" onClick={onClose} className="block w-full py-4 rounded-xl text-white font-semibold mb-3 text-center" style={{ background: result.color }}>
-              Book a 1-on-1 Dietitian Consultation →
+              Book a 1-on-1 Nutritionist Consultation →
             </a>
             <button onClick={onClose} className="text-sm" style={{ color: 'var(--color-text-secondary)' }}>Close</button>
           </motion.div>
@@ -249,7 +249,7 @@ export default function HormoneTypesSection() {
             🧬 Find My Hormonal Body Type
           </MagneticButton>
           <p className="text-center max-w-md" style={{ fontSize: '12px', color: 'var(--color-text-secondary)', lineHeight: 1.6 }}>
-            This is a quick self-screening tool based on common hormonal patterns. Results are indicative only and do not represent a clinical diagnosis or constitute medical advice. For an accurate assessment, please consult a registered dietitian.
+            This is a quick self-screening tool based on common hormonal patterns. Results are indicative only and do not represent a clinical diagnosis or constitute medical advice. For an accurate assessment, please consult a registered nutritionist.
           </p>
         </motion.div>
 

@@ -73,8 +73,8 @@ export default function ExpertsSection() {
       <div className="max-w-6xl mx-auto px-8">
         <SectionHeader
           eyebrow="OUR EXPERTS"
-          heading="Registered Dietitians Ready to Support You"
-          subheading="Each dietitian is rigorously vetted and trained — so you always get expert-level guidance."
+          heading="Registered Nutritionists Ready to Support You"
+          subheading="Each nutritionist is rigorously vetted and trained — so you always get expert-level guidance."
           headingSize={44}
           subheadingMaxWidth="max-w-2xl"
           className="mb-14"

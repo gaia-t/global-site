@@ -318,7 +318,7 @@ export default function FootprintSection() {
               Your nutritionist in your pocket
             </h3>
             <p className="text-base mb-6" style={{ color: '#86909c', lineHeight: 1.6 }}>
-              Log meals, track habits, message your dietitian, and get AI-powered nudges — all in one app. 4.8★ rated.
+              Log meals, track habits, message your nutritionist, and get AI-powered nudges — all in one app. 4.8★ rated.
             </p>
             <div className="flex gap-3 items-center flex-wrap">
               <motion.a

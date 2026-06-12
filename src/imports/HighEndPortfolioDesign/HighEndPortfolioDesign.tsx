@@ -938,7 +938,7 @@ function Heading12() {
 function Paragraph24() {
   return (
     <div className="absolute h-[72px] left-[160px] top-[136.39px] w-[768px]" data-name="Paragraph">
-      <p className="-translate-x-1/2 absolute font-['Noto_Sans_TC:Light',sans-serif] font-light leading-[36px] left-[384px] text-[#1d2129] text-[20px] text-center top-[-3px] w-[768px]">Our team of certified nutritionists, dietitians, and health coaches bring decades of combined experience in metabolic health and behavior change.</p>
+      <p className="-translate-x-1/2 absolute font-['Noto_Sans_TC:Light',sans-serif] font-light leading-[36px] left-[384px] text-[#1d2129] text-[20px] text-center top-[-3px] w-[768px]">Our team of certified nutritionists, nutritionists, and health coaches bring decades of combined experience in metabolic health and behavior change.</p>
     </div>
   );
 }
@@ -1057,7 +1057,7 @@ function Heading14() {
 function Paragraph27() {
   return (
     <div className="absolute content-stretch flex h-[24px] items-start left-0 top-[34px] w-[341.328px]" data-name="Paragraph">
-      <p className="flex-[1_0_0] font-['Noto_Sans_TC:Regular',sans-serif] font-normal leading-[24px] min-w-px relative text-[#004f51] text-[16px] text-center">Clinical Dietitian</p>
+      <p className="flex-[1_0_0] font-['Noto_Sans_TC:Regular',sans-serif] font-normal leading-[24px] min-w-px relative text-[#004f51] text-[16px] text-center">Clinical Nutritionist</p>
     </div>
   );
 }

@@ -72,7 +72,7 @@ export default function PartnersPage() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.05 }}
             >
-              The world's largest dietitian-led metabolic health platform — now open to partners.
+              The world's largest nutritionist-led metabolic health platform — now open to partners.
             </motion.h1>
             <motion.p
               style={{ fontSize: '20px', fontWeight: 300, lineHeight: 1.7 }}
@@ -81,7 +81,7 @@ export default function PartnersPage() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-              1,000+ registered dietitians. Proprietary multi-language AI. Peer-reviewed clinical evidence at population scale. Trusted by Novo Nordisk. Eight ways to partner — pick the one that fits who you are.
+              1,000+ registered nutritionists. Proprietary multi-language AI. Peer-reviewed clinical evidence at population scale. Trusted by Novo Nordisk. Eight ways to partner — pick the one that fits who you are.
             </motion.p>
             <motion.div
               className="flex gap-4 flex-wrap"
@@ -128,7 +128,7 @@ export default function PartnersPage() {
             <div className="grid grid-cols-3 gap-8 max-md:grid-cols-1">
               {[
                 { value: 1000000, suffix: "+", label: "Members across TW, SG, MY, US", color: "#169E6B", format: (n: number) => (n >= 1000000 ? `${(n / 1000000).toFixed(n % 1000000 === 0 ? 0 : 1)}M` : n.toLocaleString()) },
-                { value: 1000, suffix: "+", label: "Registered dietitians on platform", color: "#004F51" },
+                { value: 1000, suffix: "+", label: "Registered nutritionists on platform", color: "#004F51" },
                 { value: 10297, suffix: "", label: "Subjects in our Nutrients (2024) study", color: "#00C2E0" },
               ].map((stat, index) => (
                 <div key={index} className="text-center">
@@ -159,7 +159,7 @@ export default function PartnersPage() {
                 align="left"
                 eyebrow="WHY COFIT"
                 heading="Why partners choose Cofit"
-                subheading="Not another wellness app — a peer-reviewed, dietitian-led platform partners can stand behind."
+                subheading="Not another wellness app — a peer-reviewed, nutritionist-led platform partners can stand behind."
                 subheadingMaxWidth="max-w-md"
                 className="lg:sticky lg:top-28"
               />
@@ -239,7 +239,7 @@ export default function PartnersPage() {
                     fontStyle: 'italic',
                   }}
                 >
-                  "We built the platform we wished existed — the dietitian workflow, the AI food-recognition engine, the clinical protocols — and now we're opening it up."
+                  "We built the platform we wished existed — the nutritionist workflow, the AI food-recognition engine, the clinical protocols — and now we're opening it up."
                 </p>
                 <div className="text-white">
                   <p style={{ fontSize: '18px', fontWeight: 600 }}>Build on what we built</p>
@@ -256,14 +256,14 @@ export default function PartnersPage() {
         <div className="max-w-7xl mx-auto">
           <SectionHeader
             eyebrow="OUTCOMES AT SCALE"
-            heading="When dietitians lead, the data moves differently"
+            heading="When nutritionists lead, the data moves differently"
             subheading="We ran the largest study of its kind ever published — over 10,000 participants, peer-reviewed, with comparison to international diet benchmarks. The headline: real human guidance dramatically outperforms app-only self-management."
             className="mb-16"
           />
 
           <div className="grid grid-cols-3 gap-8 max-md:grid-cols-1 mb-16">
             {[
-              { value: "5.4×", label: "More weight loss vs. app-only", note: "Dietitian-guided participants lost 5.42–8% body weight in 8 weeks; the app-only control group lost just 1.54%." },
+              { value: "5.4×", label: "More weight loss vs. app-only", note: "Nutritionist-guided participants lost 5.42–8% body weight in 8 weeks; the app-only control group lost just 1.54%." },
               { value: "2.7×", label: "More than Mediterranean diet", note: "Flex8 outperformed published outcomes for Mediterranean (2.2 kg), DASH (1.42 kg), and Low-Fat (0.99 kg) protocols." },
               { value: "82%", label: "Drive Flex8 completion", note: "Vs. ~40% industry benchmark for digital health programs — engagement-dependent ROI assumptions hold." },
             ].map((item, index) => (
@@ -307,7 +307,7 @@ export default function PartnersPage() {
                 The largest digital weight-management trial of its kind, ever published.
               </h3>
               <p style={{ fontSize: '15px', color: 'var(--color-text-secondary)', lineHeight: 1.6 }}>
-                Conducted with Taipei Medical University, this 10,297-participant trial showed dietitian-led digital intervention produces clinically and statistically significant weight loss across an unprecedented sample size. Published in <em>Nutrients</em>, July 2024.
+                Conducted with Taipei Medical University, this 10,297-participant trial showed nutritionist-led digital intervention produces clinically and statistically significant weight loss across an unprecedented sample size. Published in <em>Nutrients</em>, July 2024.
               </p>
             </div>
             <div className="grid grid-cols-2 gap-x-8 gap-y-7">
@@ -337,7 +337,7 @@ export default function PartnersPage() {
           <SectionHeader
             eyebrow="THE COFIT MODEL"
             heading="Where every other platform has a gap, we have a checkmark"
-            subheading="Most digital health programs choose one strength and live with the trade-offs. Cofit was built to refuse the trade-off — combining clinical-grade dietitian coaching, scalable AI, and multiple deployment models in a single platform."
+            subheading="Most digital health programs choose one strength and live with the trade-offs. Cofit was built to refuse the trade-off — combining clinical-grade nutritionist coaching, scalable AI, and multiple deployment models in a single platform."
             className="mb-16"
           />
 
@@ -352,7 +352,7 @@ export default function PartnersPage() {
               <thead>
                 <tr>
                   <th className="text-left p-4" style={{ width: '24%', borderBottom: '2px solid rgba(15,31,26,0.1)' }}></th>
-                  {["Generic wellness apps", "AI-only chronic platforms", "In-clinic dietitian consultation"].map((h) => (
+                  {["Generic wellness apps", "AI-only chronic platforms", "In-clinic nutritionist consultation"].map((h) => (
                     <th
                       key={h}
                       className="text-left p-4"
@@ -371,9 +371,9 @@ export default function PartnersPage() {
               </thead>
               <tbody>
                 {[
-                  { feature: "Real licensed dietitians", cols: ["—", "—", "✓"], cofit: "✓ 1,000+ RDs" },
+                  { feature: "Real licensed nutritionists", cols: ["—", "—", "✓"], cofit: "✓ 1,000+ RDs" },
                   { feature: "Peer-reviewed evidence (10K+ subjects)", cols: ["—", "—", "—"], cofit: "Nutrients, 2024" },
-                  { feature: "Multi-language member experience", cols: ["limited", "limited", "per clinic"], cofit: "✓ AI + dietitians" },
+                  { feature: "Multi-language member experience", cols: ["limited", "limited", "per clinic"], cofit: "✓ AI + nutritionists" },
                   { feature: "AI food recognition", cols: ["Western database", "Western database", "—"], cofit: "3.5M+, global cuisines" },
                   { feature: "GLP-1 companion care", cols: ["—", "limited", "—"], cofit: "Full program" },
                   { feature: "Pharma partnership track record", cols: ["—", "—", "—"], cofit: "Novo Nordisk & others" },
@@ -432,13 +432,13 @@ export default function PartnersPage() {
 
           <div className="grid grid-cols-4 gap-6 max-lg:grid-cols-2 max-sm:grid-cols-1">
             {[
-              { slug: "clinics", cta: "See how clinics use Cofit", path: "BETWEEN-VISIT CARE", title: "For Clinics & Hospitals", description: "1,000+ registered dietitians as your between-visit care layer. EHR-ready. Live in 4 weeks." },
+              { slug: "clinics", cta: "See how clinics use Cofit", path: "BETWEEN-VISIT CARE", title: "For Clinics & Hospitals", description: "1,000+ registered nutritionists as your between-visit care layer. EHR-ready. Live in 4 weeks." },
               { slug: "hr", cta: "Get an engagement benchmark", path: "EMPLOYEE BENEFIT", title: "For HR & Benefits Leaders", description: "Engagement 3–5× industry norm. Multi-language. A benefit you can defend at budget review." },
               { slug: "payers", cta: "Request the evidence dossier", path: "CLAIMS & OUTCOMES", title: "For Insurers & Payers", description: "Peer-reviewed at 10,297 subjects. Outcomes-based contracts. Reimbursement active in select markets." },
               { slug: "pharma", cta: "Talk to pharma partnerships", path: "LIFE SCIENCES", title: "For Pharma & Life Sciences", description: "Trusted by Novo Nordisk since 2025. Real-world evidence, direct-to-employer, white-label options." },
               { slug: "platform", cta: "Request a platform demo", path: "PLATFORM LICENSING", title: "For Digital Health Builders", description: "SaaS, API, or full white-label. Multi-language AI. From contract to live in 8–12 weeks." },
               { slug: "resellers", cta: "Become a Cofit reseller", path: "RESELL FLEX8", title: "For Resellers & Distributors", description: "Resell Flex8, our peer-reviewed 8-week program. You bring the customers; we bring the program." },
-              { slug: "providers", cta: "Join the referral network", path: "REFERRAL NETWORK", title: "For Healthcare Professionals", description: "Refer your patients to dietitian-led care. Free to join. Patients stay yours." },
+              { slug: "providers", cta: "Join the referral network", path: "REFERRAL NETWORK", title: "For Healthcare Professionals", description: "Refer your patients to nutritionist-led care. Free to join. Patients stay yours." },
               { slug: "creators", cta: "Start a collab conversation", path: "CREATOR PARTNERSHIPS", title: "For Creators & Media", description: "1.03M YouTube subscribers, peer-reviewed evidence. Sponsored, ambassador, or affiliate options." },
             ].map((type, index) => (
               <motion.div

@@ -23,7 +23,7 @@ function VideoIcon() {
 const SLIM_FEATURES = [
   "Hormone body-type quiz & clinical assessment",
   "8-week personalized meal plan",
-  "Dedicated registered dietitian",
+  "Dedicated registered nutritionist",
   "Daily meal photo check-in & feedback",
   "2 video consultation sessions",
   "24/7 AI dietary assistant, always available",
@@ -97,7 +97,7 @@ function UpsellModal({ onClose }: { onClose: () => void }) {
             Would you like more video consultations?
           </h3>
           <p className="mt-1.5" style={{ fontSize: '13px', color: 'var(--color-text-secondary)', lineHeight: 1.55 }}>
-            Live 1-on-1 sessions to review your progress and adjust your plan with your dietitian.
+            Live 1-on-1 sessions to review your progress and adjust your plan with your nutritionist.
           </p>
         </div>
 
@@ -163,7 +163,7 @@ function UpsellModal({ onClose }: { onClose: () => void }) {
                     </div>
                   </div>
                   <p style={{ fontSize: '12px', color: 'var(--color-text-secondary)', lineHeight: 1.5, marginTop: 3, marginBottom: 5 }}>
-                    +$80 for one extra session — speak to your dietitian 3× for deeper support.
+                    +$80 for one extra session — speak to your nutritionist 3× for deeper support.
                   </p>
                   <div className="flex items-center gap-1.5" style={{ color: 'var(--color-secondary)' }}>
                     <VideoIcon />
@@ -201,7 +201,7 @@ function UpsellModal({ onClose }: { onClose: () => void }) {
                 <div className="flex items-center justify-between gap-3">
                   <div>
                     <p className="font-medium" style={{ fontSize: '13px', color: 'var(--color-text)' }}>
-                      30-min 1-on-1 Dietitian Consultation
+                      30-min 1-on-1 Nutritionist Consultation
                     </p>
                     <p style={{ fontSize: '12px', color: 'var(--color-text-secondary)', marginTop: 1 }}>
                       Talk to an RD first before committing to a program
@@ -383,7 +383,7 @@ export default function PricingSection() {
                 {/* Key highlights */}
                 <div className="space-y-2.5">
                   {[
-                    "Dedicated registered dietitian",
+                    "Dedicated registered nutritionist",
                     "Daily check-ins & personalised feedback",
                     "24/7 AI dietary assistant",
                     "Cash reward on goal achievement",

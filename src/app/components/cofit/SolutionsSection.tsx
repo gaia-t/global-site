@@ -176,7 +176,7 @@ export default function SolutionsSection() {
             >
               <p className="text-white" style={{ fontSize: '15px', fontWeight: 300, lineHeight: 1.75 }}>
                 Most diets ignore your hormonal body type, your lifestyle, and your psychology.{' '}
-                <span style={{ fontWeight: 600 }}>Flex8 addresses all three</span> — with a real dietitian by your side.
+                <span style={{ fontWeight: 600 }}>Flex8 addresses all three</span> — with a real nutritionist by your side.
               </p>
             </div>
           </motion.div>

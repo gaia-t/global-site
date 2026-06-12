@@ -15,7 +15,7 @@ function IconAssessment() {
   );
 }
 
-function IconDietitian() {
+function IconNutritionist() {
   return (
     <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
       <circle cx="12" cy="7" r="4"/>
@@ -66,9 +66,9 @@ const STEPS = [
   },
   {
     num: "02",
-    Icon: IconDietitian,
-    title: "Meet Your Dietitian",
-    description: "Your registered dietitian reviews your profile and customizes your 8-week plan.",
+    Icon: IconNutritionist,
+    title: "Meet Your Nutritionist",
+    description: "Your registered nutritionist reviews your profile and customizes your 8-week plan.",
     color: "#004F51",
     bg: "#e6f0f0",
   },
@@ -76,7 +76,7 @@ const STEPS = [
     num: "03",
     Icon: IconMealLog,
     title: "Daily Meal Check-in",
-    description: "Log meals via photo. Your dietitian responds every day with personalized guidance.",
+    description: "Log meals via photo. Your nutritionist responds every day with personalized guidance.",
     color: "#00C2E0",
     bg: "#e0f7fb",
   },
@@ -103,7 +103,7 @@ const TAGS = [
   "Meal plan tailored to your body type",
   "Address root causes — not just calories",
   "Clinically developed by obesity researchers",
-  "Daily check-in responses from your dietitian",
+  "Daily check-in responses from your nutritionist",
 ];
 
 export default function JourneySection() {
